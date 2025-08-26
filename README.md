@@ -30,13 +30,13 @@ This repo is my public log of what I learn each day: the *concepts*, tiny *boile
 │ ├── Application.kt # Application.module(): install plugins, wire routes
 │ ├── Routing.kt # routing { ... } endpoints
 │ └── api/ # tiny DTOs for API responses
-│ ├── HealthDto.kt
-│ ├── EchoDto.kt
-│ ├── SumDto.kt
-│ └── ErrorDto.kt
+│ -- ├── HealthDto.kt
+│ -- ├── EchoDto.kt
+│ -- ├── SumDto.kt
+│ -- └── ErrorDto.kt
 ├── src/main/resources/
-│ ├── application.yaml # port, module, env config
-│ └── logback.xml # logging config
+│ --├── application.yaml # port, module, env config
+│ --└── logback.xml # logging config
 ├── gradle/ # Gradle wrapper files
 ├── build.gradle.kts
 ├── settings.gradle.kts
